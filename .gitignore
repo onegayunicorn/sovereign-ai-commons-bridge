@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.apk
+.DS_Store
+android/.gradle/
+android/app/build/
+*.iml
+.idea/
