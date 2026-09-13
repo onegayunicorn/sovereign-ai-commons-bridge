@@ -14,5 +14,9 @@ jobs:
           python-version: "3.12"
       - name: Run core tests
         run: python tests/test_core.py
-      - name: Seal check
+      - name: Run ML-DSA evidence harness
+        run: python tests/test_mldsa_evidence.py
+      - name: Boundary seal
+        run: python scripts/seal_boundary.py
+      - name: Merkle seal check
         run: bash scripts/github_commit.sh && test -f audit/manifest.json

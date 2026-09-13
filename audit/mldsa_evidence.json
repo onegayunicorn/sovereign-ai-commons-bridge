@@ -1,0 +1,24 @@
+{
+  "backend": "simulation",
+  "environment": {
+    "platform": "Linux-6.12.8+-x86_64-with-glibc2.39",
+    "python": "3.12.3"
+  },
+  "evidence_kind": "software_interface_validation",
+  "evidence_level": "L1",
+  "evidence_plane": "ML-DSA-65",
+  "fold": "FE-OGUF-P1",
+  "mechanism": "ML-DSA-65-sim",
+  "merkle_root_under_test": "1742066dfc8bc898b461ce38baac17d3f349047c40afb8f96be320b2fd7f0d1d",
+  "message_version": "SACB-MLDSA65-v1",
+  "non_claims": [
+    "simulation_is_cryptographic_evidence: false",
+    "hardware_backed_signing: false",
+    "nfc_biometric_photonic: false"
+  ],
+  "public_key_sha3_256": "e2e7f2133056f20ab67a7a700b3fada375a0953e91d1a54c5d2a407e0be9f331",
+  "real_liboqs": false,
+  "signature_sha3_256": "placeholder_will_vary",
+  "ts_utc": "2026-09-13T05:28:00+00:00",
+  "verified": true
+}

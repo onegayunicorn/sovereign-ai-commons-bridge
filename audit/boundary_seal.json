@@ -1,0 +1,60 @@
+{
+  "active_status": {
+    "backend": "simulation",
+    "mechanism": "ML-DSA-65-sim",
+    "ready": true,
+    "real_liboqs": false,
+    "runtime": "simulation"
+  },
+  "backends": {
+    "real_liboqs": {
+      "available": false,
+      "cryptographic_evidence": false,
+      "evidence_level": null,
+      "note": "L1 software only when available; never L4 hardware"
+    },
+    "simulation": {
+      "available": true,
+      "cryptographic_evidence": false,
+      "evidence_level": "L1"
+    }
+  },
+  "boundary_seal_version": "v1",
+  "claims": {
+    "agent_registry_43": {
+      "level": "L1",
+      "notes": "static surface only"
+    },
+    "merkle_audit": {
+      "level": "L1",
+      "notes": "SHA3-256 tree integrity"
+    },
+    "mldsa65_interface": {
+      "backend": "simulation",
+      "level": "L1",
+      "real_liboqs": false
+    }
+  },
+  "environment": {
+    "platform": "Linux-6.12.8+-x86_64-with-glibc2.39",
+    "python": "3.12.3"
+  },
+  "fold_entry": "FE-OGUF-P1",
+  "non_claims": [
+    "simulation_is_cryptographic_evidence: false",
+    "hardware_backed_signing: false",
+    "nfc_physical_anchoring: false",
+    "biometric_tee: false",
+    "photonic_amoled_loop: false",
+    "independent_third_party_reproduction: false",
+    "43_concurrent_live_processes: false"
+  },
+  "project": "sovereign-ai-commons-bridge",
+  "promotion_requires": [
+    "reproducible_test_or_measurement",
+    "environment_identity",
+    "artifact_hash"
+  ],
+  "seal_sha3_256": "f134b76875874b3a23f1127f3bacd3cf156f8fadc2639efce49b485271ec3a59",
+  "ts_utc": "2026-09-13T05:28:00+00:00"
+}
