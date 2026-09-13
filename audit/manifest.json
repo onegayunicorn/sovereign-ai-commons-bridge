@@ -1,8 +1,8 @@
 {
-  "merkle_root": "8367594ecbeea99551c186e06e67def995ab8796b77c0c20c6244cee6251c587",
+  "merkle_root": "1742066dfc8bc898b461ce38baac17d3f349047c40afb8f96be320b2fd7f0d1d",
   "fold_entry": "FE-OGUF-P1",
   "coherence": 0.99997,
   "agents": 43,
   "files": 10,
-  "ts": 1789206817.8191288
+  "ts": 1789276953.6007438
 }
