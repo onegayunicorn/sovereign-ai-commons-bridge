@@ -18,7 +18,7 @@
   ],
   "public_key_sha3_256": "e2e7f2133056f20ab67a7a700b3fada375a0953e91d1a54c5d2a407e0be9f331",
   "real_liboqs": false,
-  "signature_sha3_256": "placeholder_will_vary",
-  "ts_utc": "2026-09-13T05:28:00+00:00",
+  "signature_sha3_256": "68f960fe5c580eaef134b1eb6d56a705317a684b37a056e194efea0375598c04",
+  "ts_utc": "2026-09-13T05:28:24.045459+00:00",
   "verified": true
 }
